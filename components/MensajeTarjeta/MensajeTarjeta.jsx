@@ -6,7 +6,7 @@ export default function MensajeTarjeta(){
         <View style={styles.mensajeTamanio}>
             <Text style={styles.mesajePrincipal}>
                 Mi nombre es Fabián Camilo Arévalo Roa, Soy un estudiante de desarrollo 
-                aplicaciones multiplataforma con un enfoque a desarrollo web.
+                aplicaciones multiplataforma con un enfoque en desarrollo web.
             </Text>
             <Text style={styles.mesajeFrase}>
                 Soy trabajador, diligente y dedicado, y dichas cualidades las pongo en todo lo que hago
