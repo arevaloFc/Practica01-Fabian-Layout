@@ -1,10 +1,11 @@
 import { StyleSheet, View} from "react-native";
+import QRCode from 'react-native-qrcode-svg';
 
 export default function QrTarjeta(){
 
     return (
     
-        <View> 
+        <View > 
         
         </View>
     
@@ -13,7 +14,7 @@ export default function QrTarjeta(){
 }
 
 const styles = StyleSheet.create({
-
+    
 
 
 });
