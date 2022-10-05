@@ -26,11 +26,13 @@ const styles = StyleSheet.create({
     },
 
     fotoPersona: {
+        flex: 2,
         width: '100%',
         height: 100
     },
 
     nombrePersona: {
+        flex: 5,
         padding: 10,
         fontSize: 22,
         fontWeight: 'bold',
