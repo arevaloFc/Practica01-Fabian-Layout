@@ -6,7 +6,7 @@ export default function QrTarjeta(){
     return (
     
         <View style={styles.qtTamanio}> 
-            <QRCode size={150}  value="https://github.com/arevaloFc"/>
+            <QRCode size={150}  value="https://github.com/arevaloFc/Practica01-Fabian-Layout"/>
         </View>
     
     )
@@ -18,9 +18,7 @@ const styles = StyleSheet.create({
     qtTamanio: {
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
-        height: 200,
+        width: '100%'
     },
-
 
 });
