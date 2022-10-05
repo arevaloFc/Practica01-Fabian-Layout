@@ -5,7 +5,7 @@ export default function EncabezadoTarjeta(){
     return (
     
         <View style={styles.datosTarjeta}>
-
+            <Text>Fabián Camilo Arévalo Roa</Text>
         </View>
     
     )
