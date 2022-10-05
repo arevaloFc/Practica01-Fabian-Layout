@@ -1,10 +1,13 @@
-import { StyleSheet, View} from "react-native"
+import { StyleSheet, View, Text} from "react-native"
 
 export default function MensajeTarjeta(){
 
     return (
         <View style={styles.mensajeTamanio}>
-            
+            <Text>
+                Mi nombre es Fabián Camilo Arévalo Roa, en la actualidad 
+                soy estudiante de DAM, Disfruto más la parte de desarrollo web, movil y mucho mas cosas
+            </Text>
         </View>
     )
 
