@@ -6,7 +6,7 @@ export default function QrTarjeta(){
     return (
     
         <View style={styles.qtTamanio}> 
-            
+            <QRCode size={150}  value="https://github.com/arevaloFc"/>
         </View>
     
     )
