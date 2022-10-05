@@ -12,6 +12,8 @@ export default function App() {
       <MensajeTarjeta/>
       <QrTarjeta/>
       <View style={styles.finalBoddy}>
+        <ImageBackground  style={styles.image}>
+        </ImageBackground>
       </View>
     </View>
 
@@ -34,5 +36,11 @@ const styles = StyleSheet.create({
     width: '100%',
     padding: 1
   },
+
+  image: {
+    flex: 1,
+    justifyContent: "center",
+    padding: 18
+  }
 
 });
