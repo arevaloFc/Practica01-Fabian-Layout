@@ -18,7 +18,9 @@ const styles = StyleSheet.create({
     qrTamanio: {
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%'
+        width: '100%',
+        marginBottom: 10
+
     },
 
 });
