@@ -16,9 +16,10 @@ export default function QrTarjeta(){
 const styles = StyleSheet.create({
 
     qtTamanio: {
+        justifyContent: 'center',
+        alignItems: 'center',
         width: '100%',
         height: 200,
-        backgroundColor: 'red'
     },
 
 
