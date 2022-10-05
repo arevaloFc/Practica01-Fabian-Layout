@@ -16,8 +16,12 @@ export default function EncabezadoTarjeta(){
 const styles = StyleSheet.create({
 
     datosTarjeta: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
         width: '100%',
         height: 200,
+        padding: 20,
         backgroundColor: '#BBBBBB'
     },
 
@@ -31,5 +35,6 @@ const styles = StyleSheet.create({
         fontSize: 22,
         fontWeight: 'bold',
         color: '#FFFFFF'
-    },
+    }
+
 });
