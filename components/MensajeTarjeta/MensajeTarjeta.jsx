@@ -6,7 +6,8 @@ export default function MensajeTarjeta(){
         <View style={styles.mensajeTamanio}>
             <Text style={styles.mesajeEstilos}>
                 Mi nombre es Fabián Camilo Arévalo Roa, en la actualidad 
-                soy estudiante de DAM, Disfruto más la parte de desarrollo web, movil y mucho mas cosas
+                soy estudiante de DAM, Disfruto más la parte de desarrollo web, movil, 
+                Soy responsable y puntual tambien me gusta dar todo en mis trabajos 
             </Text>
             <Text style={styles.mesajeFrase}>
                 Solo quiero mirar las estrellas y olvidar mi existencia
@@ -19,13 +20,14 @@ export default function MensajeTarjeta(){
 const styles = StyleSheet.create({
 
     mensajeTamanio: {
+        justifyContent: 'center',
+        alignItems: 'center',
         width: '100%',
-        height: 200,
-        backgroundColor: 'red'
+        height: 200
     },
 
     mesajeEstilos: {
-        textAlign: 'center',
+        textAlign: 'justify',
         padding: 10,
         fontSize: 16
     },
