@@ -1,10 +1,11 @@
 
 import { StyleSheet, View } from 'react-native';
+import EncabezadoTarjeta from './components/EncabezadoTarjeta/EncabezadoTarjeta';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      hola
+      <EncabezadoTarjeta/>
     </View>
   );
 }
