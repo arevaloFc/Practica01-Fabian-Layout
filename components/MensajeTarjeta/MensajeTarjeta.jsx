@@ -4,7 +4,7 @@ export default function MensajeTarjeta(){
 
     return (
         <View style={styles.mensajeTamanio}>
-            <Text style={styles.mesajeEstilos}>
+            <Text style={styles.mesajePrincipal}>
                 Mi nombre es Fabián Camilo Arévalo Roa, Soy un estudiante de desarrollo 
                 aplicaciones multiplataforma con un enfoque a desarrollo web.
             </Text>
@@ -21,17 +21,19 @@ const styles = StyleSheet.create({
     mensajeTamanio: {
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%'
+        width: '100%',
+        padding: 20
     },
 
-    mesajeEstilos: {
+    mesajePrincipal: {
         textAlign: 'justify',
-        padding: 10,
+        padding: 30,
         fontSize: 16
     },
 
     mesajeFrase: {
-        padding: 10,
+        paddingLeft: 60,
+        paddingRight: 60,
         fontSize: 14,
         textAlign: 'center',
     }
