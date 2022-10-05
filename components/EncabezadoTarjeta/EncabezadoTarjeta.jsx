@@ -27,8 +27,7 @@ const styles = StyleSheet.create({
 
     fotoPersona: {
         flex: 2,
-        width: '100%',
-        height: 100,
+        height: '100%',
         borderRadius: 100
     },
 
