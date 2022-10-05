@@ -5,8 +5,8 @@ export default function QrTarjeta(){
 
     return (
     
-        <View > 
-        
+        <View style={styles.qtTamanio}> 
+            
         </View>
     
     )
@@ -14,7 +14,12 @@ export default function QrTarjeta(){
 }
 
 const styles = StyleSheet.create({
-    
+
+    qtTamanio: {
+        width: '100%',
+        height: 200,
+        backgroundColor: 'red'
+    },
 
 
 });
