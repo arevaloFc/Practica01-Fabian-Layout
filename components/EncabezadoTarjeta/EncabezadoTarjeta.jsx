@@ -1,12 +1,14 @@
-import { Image, StyleSheet, Text, View} from "react-native"
+import { Image, StyleSheet, Text, View, ImageBackground} from "react-native"
 
 export default function EncabezadoTarjeta(){
 
     return (
     
         <View style={styles.datosTarjeta}>
-            <Image style={styles.fotoPersona} source={require("../../images/Fabian.jpg")}/>
-            <Text style={styles.nombrePersona}>Fabián Camilo Arévalo Roa</Text>
+            <ImageBackground source={require("../../images/Fondo01.jpg")} resizeMode="cover" style={styles.image}>
+                <Image style={styles.fotoPersona} source={require("../../images/Fabian.jpg")}/>
+                <Text style={styles.nombrePersona}>Fabián Camilo Arévalo Roa</Text>
+            </ImageBackground>
         </View>
     
     )
@@ -16,27 +18,33 @@ export default function EncabezadoTarjeta(){
 const styles = StyleSheet.create({
 
     datosTarjeta: {
+        width: '100%',
+        height: 190,
+        backgroundColor: '#305D90',
+        padding: 1
+    },
+
+    image: {
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
-        height: 140,
-        padding: 20,
-        backgroundColor: '#BBBBBB'
+        justifyContent: "center",
+        flex: 1,
+        padding: 18
     },
 
     fotoPersona: {
-        flex: 2,
-        height: '100%',
-        borderRadius: 100
+        height: '60%',
+        borderRadius: 100,
+        flex: 2
     },
 
     nombrePersona: {
-        flex: 5,
         padding: 10,
         fontSize: 22,
         fontWeight: 'bold',
-        color: '#FFFFFF'
-    }
+        color: '#FFFFFF',
+        flex: 5
+    },
 
 });
