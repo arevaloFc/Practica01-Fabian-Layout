@@ -11,6 +11,8 @@ export default function App() {
       <EncabezadoTarjeta/>
       <MensajeTarjeta/>
       <QrTarjeta/>
+      <View style={styles.finalBoddy}>
+      </View>
     </View>
 
   );
@@ -24,6 +26,13 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
     backgroundColor: '#fff'
-  }
+  },
+
+  finalBoddy: {
+    backgroundColor: '#305D90',
+    height: 100,
+    width: '100%',
+    padding: 1
+  },
 
 });
