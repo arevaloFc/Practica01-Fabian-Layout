@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
         width: '100%',
-        height: 200,
+        height: 140,
         padding: 20,
         backgroundColor: '#BBBBBB'
     },
@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
     fotoPersona: {
         flex: 2,
         width: '100%',
-        height: 100
+        height: 100,
+        borderRadius: 100
     },
 
     nombrePersona: {
