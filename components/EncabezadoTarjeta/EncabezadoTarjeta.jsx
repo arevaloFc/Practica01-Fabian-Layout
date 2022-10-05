@@ -4,8 +4,8 @@ export default function EncabezadoTarjeta(){
 
     return (
     
-        <View>
-            
+        <View style={styles.datosTarjeta}>
+
         </View>
     
     )
@@ -14,5 +14,9 @@ export default function EncabezadoTarjeta(){
 
 const styles = StyleSheet.create({
 
-
+    datosTarjeta: {
+        width: '100%',
+        height: 200,
+        backgroundColor: '#BBBBBB'
+    },
 });
