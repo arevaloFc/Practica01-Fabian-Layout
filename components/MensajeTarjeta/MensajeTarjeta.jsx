@@ -22,8 +22,7 @@ const styles = StyleSheet.create({
     mensajeTamanio: {
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
-        height: 200
+        width: '100%'
     },
 
     mesajeEstilos: {
