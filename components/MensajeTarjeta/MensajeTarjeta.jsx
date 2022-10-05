@@ -8,7 +8,7 @@ export default function MensajeTarjeta(){
                 Mi nombre es Fabián Camilo Arévalo Roa, en la actualidad 
                 soy estudiante de DAM, Disfruto más la parte de desarrollo web, movil y mucho mas cosas
             </Text>
-            <Text>
+            <Text style={styles.mesajeFrase}>
                 Solo quiero mirar las estrellas y olvidar mi existencia
             </Text>
         </View>
@@ -29,5 +29,11 @@ const styles = StyleSheet.create({
         padding: 10,
         fontSize: 16
     },
+
+    mesajeFrase: {
+        padding: 10,
+        fontSize: 14,
+        textAlign: 'center',
+    }
 
 });
