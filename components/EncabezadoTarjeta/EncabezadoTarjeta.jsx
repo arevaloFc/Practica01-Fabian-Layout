@@ -5,7 +5,7 @@ export default function EncabezadoTarjeta(){
     return (
     
         <View style={styles.datosTarjeta}>
-            <Text>Fabián Camilo Arévalo Roa</Text>
+            <Text style={styles.nombrePersona}>Fabián Camilo Arévalo Roa</Text>
         </View>
     
     )
@@ -18,5 +18,12 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 200,
         backgroundColor: '#BBBBBB'
+    },
+
+    nombrePersona: {
+        padding: 10,
+        fontSize: 22,
+        fontWeight: 'bold',
+        color: '#FFFFFF'
     },
 });
