@@ -8,6 +8,9 @@ export default function MensajeTarjeta(){
                 Mi nombre es Fabián Camilo Arévalo Roa, en la actualidad 
                 soy estudiante de DAM, Disfruto más la parte de desarrollo web, movil y mucho mas cosas
             </Text>
+            <Text>
+                Solo quiero mirar las estrellas y olvidar mi existencia
+            </Text>
         </View>
     )
 
