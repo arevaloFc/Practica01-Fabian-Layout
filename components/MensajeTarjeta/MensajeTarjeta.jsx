@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
     mesajePrincipal: {
         textAlign: 'justify',
         padding: 30,
-        fontSize: 16
+        fontSize: 16,
+        color: '#ffffff'
     },
 
     mesajeFrase: {
@@ -36,6 +37,7 @@ const styles = StyleSheet.create({
         paddingRight: 60,
         fontSize: 14,
         textAlign: 'center',
+        color: '#ffffff'
     }
 
 });
